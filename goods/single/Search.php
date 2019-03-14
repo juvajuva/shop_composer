@@ -1,6 +1,6 @@
 <?php
 
-namespace app\g\single;
+namespace app\goods\single;
 
 class Search{
     
