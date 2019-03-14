@@ -1,0 +1,25 @@
+{
+    "name": "juva_composer/shop",
+    "description": "goods and order",
+    "authors": [
+        {
+            "name": "zw"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\goods\\": "goods/",
+            "app\\orders\\": "order/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
